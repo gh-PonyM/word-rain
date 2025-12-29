@@ -1,0 +1,28 @@
+[project]
+name = "wordrain"
+version = "0.1.0"
+description = "An advanced word cloud library"
+requires-python = ">=3.12"
+
+authors = [
+    {name = "University of Uppsala", email = "foo@bar.com"}
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "gensim",
+    "nltk",
+    "matplotlib",
+    "python-bidi",
+    "reportlab"
+]
+
+[build-system]
+requires = ["uv_build>=0.9.13,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "wordrain"
+module-root = ""

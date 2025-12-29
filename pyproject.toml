@@ -2,7 +2,7 @@
 name = "wordrain"
 version = "0.1.0"
 description = "An advanced word cloud library"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 
 authors = [
     {name = "University of Uppsala", email = "foo@bar.com"}
